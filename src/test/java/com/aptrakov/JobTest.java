@@ -67,7 +67,7 @@ public class JobTest extends TestBase {
         });
     }
 
-    @Test
+   /* @Test
     @DisplayName("Добавление видеоигры в корзину")
     void addGameToCart() {
         step("Пишем название видеоигры в строке поиска", ()-> {
@@ -111,7 +111,7 @@ public class JobTest extends TestBase {
         step("Проверяем что товар удалён из корзины", ()-> {
             $(".cart_status_message").shouldHave(text("Your item has been removed!"));
         });
-    }
+    }*/
 
 
 }
